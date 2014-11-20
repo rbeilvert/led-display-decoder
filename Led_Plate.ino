@@ -283,7 +283,7 @@ void setup()
 }
 
 void loop()
-{ 
+{ /*
   // Blinking
   trame=1;
   for (int pat=0; pat<2;pat++)
@@ -304,7 +304,7 @@ void loop()
       delay(90);  
     }
   }
-/*
+*/
   // Shifting
   trame=0;
   for (int shift=0; shift<  numPatterns*8; shift++) //...< nb patterns trame*8
@@ -316,9 +316,9 @@ void loop()
         M[ligne][colonne]=patterns[trame][(pattern+shift/8+(colonne>(8-shift%8)))%  numPatterns][ligne][(colonne+shift)%8]; //...%8)))%nb patterns trame] - raccord fin de trame
       }
     }
-    delay(60);
+    delay(120);
   }
-*/
+
 }
 
 void update()
