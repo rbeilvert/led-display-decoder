@@ -1,4 +1,4 @@
-Led_Plate
-=========
+8x8x2 LED display
+=================
 
-Plateau de LEDs 8x8
+An 8x8 two-color LED display built for experimenting with an Arduino and 4 MC14514BCP line decoders
